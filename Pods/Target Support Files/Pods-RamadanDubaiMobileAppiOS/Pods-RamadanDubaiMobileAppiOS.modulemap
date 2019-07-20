@@ -1,0 +1,6 @@
+framework module Pods_RamadanDubaiMobileAppiOS {
+  umbrella header "Pods-RamadanDubaiMobileAppiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

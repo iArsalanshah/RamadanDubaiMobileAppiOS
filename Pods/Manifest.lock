@@ -1,0 +1,30 @@
+PODS:
+  - IQKeyboardManagerSwift (6.2.1)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - SideMenu (5.0.3)
+  - SwiftyUserDefaults (3.0.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - SideMenu
+  - SwiftyUserDefaults
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IQKeyboardManagerSwift
+    - NVActivityIndicatorView
+    - SideMenu
+    - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  SwiftyUserDefaults: 3d273b1739b68ada3145dc754a70ec775bc5c8be
+
+PODFILE CHECKSUM: 26589da3602c1ae31d003be1a99dc37149b2ae06
+
+COCOAPODS: 1.6.1
