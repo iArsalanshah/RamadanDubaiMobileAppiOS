@@ -1,10 +1,4 @@
-//
-//  Constants.swift
-//  Template
-//
-//  Created by Akber Sayani on 02/01/2017.
-//  Copyright © 2017 Akber Sayani. All rights reserved.
-//
+
 import UIKit
 import Foundation
 

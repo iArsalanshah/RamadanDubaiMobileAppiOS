@@ -2,7 +2,7 @@
 //  SideMenuTVC.swift
 //  RamadanDubaiMobileApp
 //
-//  Created by Amr Abd Elwahab on 15/07/2019.
+//  Created by Syed Arsalan Shah on 15/07/2019.
 //  Copyright © 2019 arsalan. All rights reserved.
 //
 
