@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		053DA79071459D3B12F67CE0 /* Pods_RamadanDubaiMobileAppiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E43656604706B2BC0AACCC /* Pods_RamadanDubaiMobileAppiOS.framework */; };
+		A1075AA622E3DF7C00F5CBD8 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1075AA522E3DF7C00F5CBD8 /* Launch.storyboard */; };
 		A1AD22B722E197E5005AB791 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AD22B622E197E5005AB791 /* AppDelegate.swift */; };
 		A1AD22DE22E199B8005AB791 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AD22CC22E199B7005AB791 /* Colors.xcassets */; };
 		A1AD22DF22E199B8005AB791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AD22CD22E199B7005AB791 /* Assets.xcassets */; };
-		A1AD22E022E199B8005AB791 /* LaunchScreen.storyboard.xml in Resources */ = {isa = PBXBuildFile; fileRef = A1AD22CE22E199B7005AB791 /* LaunchScreen.storyboard.xml */; };
 		A1AD22E122E199B8005AB791 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AD22D122E199B8005AB791 /* BaseController.swift */; };
 		A1AD22E222E199B8005AB791 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AD22D222E199B8005AB791 /* LoginVC.swift */; };
 		A1AD22E322E199B8005AB791 /* HomeDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AD22D322E199B8005AB791 /* HomeDetailsVC.swift */; };
@@ -28,12 +28,12 @@
 
 /* Begin PBXFileReference section */
 		88E43656604706B2BC0AACCC /* Pods_RamadanDubaiMobileAppiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RamadanDubaiMobileAppiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1075AA522E3DF7C00F5CBD8 /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 		A1AD22B322E197E5005AB791 /* RamadanDubaiMobileAppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RamadanDubaiMobileAppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1AD22B622E197E5005AB791 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1AD22C222E197E7005AB791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1AD22CC22E199B7005AB791 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		A1AD22CD22E199B7005AB791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A1AD22CF22E199B7005AB791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/LaunchScreen.storyboard.xml; sourceTree = "<group>"; };
 		A1AD22D122E199B8005AB791 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		A1AD22D222E199B8005AB791 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A1AD22D322E199B8005AB791 /* HomeDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDetailsVC.swift; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			children = (
 				A1AD22CC22E199B7005AB791 /* Colors.xcassets */,
 				A1AD22CD22E199B7005AB791 /* Assets.xcassets */,
-				A1AD22CE22E199B7005AB791 /* LaunchScreen.storyboard.xml */,
+				A1075AA522E3DF7C00F5CBD8 /* Launch.storyboard */,
 			);
 			path = support_files;
 			sourceTree = "<group>";
@@ -230,9 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1AD22DE22E199B8005AB791 /* Colors.xcassets in Resources */,
+				A1075AA622E3DF7C00F5CBD8 /* Launch.storyboard in Resources */,
 				A1AD22EB22E19A29005AB791 /* Main.storyboard in Resources */,
 				A1AD22DF22E199B8005AB791 /* Assets.xcassets in Resources */,
-				A1AD22E022E199B8005AB791 /* LaunchScreen.storyboard.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,17 +312,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A1AD22CE22E199B7005AB791 /* LaunchScreen.storyboard.xml */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1AD22CF22E199B7005AB791 /* Base */,
-			);
-			name = LaunchScreen.storyboard.xml;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A1AD22C322E197E7005AB791 /* Debug */ = {
